@@ -34,24 +34,24 @@
           <a class="brand" href="#">Eugene Online Judge</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="./">Home</a></li>
+              <li class="active"><a href="#">Home</a></li>
               <li><a href="./compete">Compete</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Problems<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="./problems/tutorial.php">Tutorial</a></li>
-                  <li><a href="./problems/easy.php">Easy</a></li>
-                  <li><a href="./problems/medium.php">Medium</a></li>
-                  <li><a href="./problems/hard.php">Hard</a></li>
+                  <li><a href="./compete/tutorial.php">Tutorial</a></li>
+                  <li><a href="./compete/easy.php">Easy</a></li>
+                  <li><a href="./compete/medium.php">Medium</a></li>
+                  <li><a href="./compete/hard.php">Hard</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">New Addtions</li>
-                  <li><a href="./problems/editorial.php">Editorial</a></li>
-                  <li><a href="./problems/brainer.php">Brainstorm</a></li>
+                  <li><a href="./compete/editorial.php">Editorial</a></li>
+                  <li><a href="./compete/brainer.php">Brainstorm</a></li>
                 </ul>
               </li>
               <li><a href="./forum.php">Forum</a></li>
               <li><a href="./help.php">Help</a></li>
-              <li class="active"><a href="#">About</a></li>
+              <li><a href="./about.php">About</a></li>
             </ul>
             <form class="navbar-form pull-right">
               <input class="span2" type="text" placeholder="Email">
@@ -64,6 +64,37 @@
     </div>
 
     <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+      <h1>Welcome to Eugene Online Judge</h1><br/>
+      <p>Eugene is a platform to compete with programmers around the world with hundred's
+      of problems being added every month. Eugene is also a platform for employers to choose the right candidates based on your Eugene ranking or badges earned.We wish you success in this journey.</p>
+      <p align="right">- Team Eugene</p>
+      <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    </div>
+
+    <!-- example row of columns -->
+    <div class="row">
+      <div class="span4">
+        <h2>Advanced Text Editor</h2>
+        <p>Codeguage is integrated with an advance text editor which supports syntax highlighting for multiple programming languages.It also includes- line number support
+        and debugging facility for some languages</p>
+        <p><a class="btn" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="span4">
+       <h2>Brainstorm Problems</h2>
+       <p>Codeguage has included a brainstrom programs section in-addition to the existing
+       sections.The Brainstrom questions are extremely hard challenging with minimal successful submissions.Try testing your batteries in this brand new section</p>
+       <p><a class="btn" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="span4">
+       <h2>Editorials</h2>
+       <p>Codeguage provides with a editorial section for most of the problems which seem to
+       more challenging interms of how algoritm intensive the solution to the problem is.The editiorial section can even be managed by users after earning the moderator badge.</p>
+       <p><a class="btn" href="#">View details &raquo;</a></p>
+      </div>
+    </div>
 
     <hr>
 

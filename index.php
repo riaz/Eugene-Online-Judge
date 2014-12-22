@@ -2,14 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>BootStrap Tutorial 2</title>
+		<title>Eugene Online Judge</title>
 
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author"  content="">
 
 		<link href="css/bootstrap.css" rel="stylesheet"/>
-		<style>
+    <style>
 			body{
 				padding-top: 60px; /* this is to indent from the titlebar placed by bootstrap*/
         		padding-bottom:40px; /*this is to indent the footer sticker*/
@@ -39,19 +39,19 @@
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Problems<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="./compete/tutorial.html">Tutorial</a></li>
-                  <li><a href="./compete/easy.html">Easy</a></li>
-                  <li><a href="./compete/medium.html">Medium</a></li>
-                  <li><a href="#">Hard</a></li>
+                  <li><a href="./problems/tutorial.php">Tutorial</a></li>
+                  <li><a href="./problems/easy.php">Easy</a></li>
+                  <li><a href="./problems/medium.php">Medium</a></li>
+                  <li><a href="./problems/hard.php">Hard</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">New Addtions</li>
-                  <li><a href="#">Editorial</a></li>
-                  <li><a href="#">Brainstorm</a></li>
+                  <li><a href="./problems/editorial.php">Editorial</a></li>
+                  <li><a href="./problems/brainer.php">Brainstorm</a></li>
                 </ul>
               </li>
-              <li><a href="#contact">Forum</a></li>
-              <li><a href="#contact">Help</a></li>
-              <li><a href="./about.html">About</a></li>
+              <li><a href="./forum.php">Forum</a></li>
+              <li><a href="./help.php">Help</a></li>
+              <li><a href="./about.php">About</a></li>
             </ul>
             <form class="navbar-form pull-right">
               <input class="span2" type="text" placeholder="Email">
@@ -67,10 +67,10 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-      <h1>Welcome to Eugene Cloud Judge</h1><br/>
+      <h1>Welcome to Eugene Online Judge</h1><br/>
       <p>Eugene is a platform to compete with programmers around the world with hundred's
       of problems being added every month. Eugene is also a platform for employers to choose the right candidates based on your Eugene ranking or badges earned.We wish you success in this journey.</p>
-      <p align="right">Team Eugene</p>
+      <p align="right">- Team Eugene</p>
       <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
     </div>
 
